@@ -1,5 +1,5 @@
-const int potPin = 4; // Potentiometer connected to GPIO4
-const int ledPin = 2; // LED connected to GPIO2 (on‑board LED for many dev boards)
+const int potPin = 6; // Potentiometer is connected to GPIO6
+const int ledPin = 3; // LED is connected to GPIO3
 
 void setup() {
   pinMode(ledPin, OUTPUT);
