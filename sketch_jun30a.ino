@@ -1,5 +1,6 @@
 // Capacitor Timer Reader on ESP32
 const int capPin = 32; // Analog pin
+
 void setup() 
 
 {
@@ -13,5 +14,4 @@ int capValue = analogRead(capPin);
 Serial.print("Capacitor Voltage Reading: ");
 Serial.println(capValue);
 delay(200);
-
 }
