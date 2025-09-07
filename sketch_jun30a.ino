@@ -1,14 +1,11 @@
-const int potPin = 2;
-
-
+// Capacitor Timer Reader on ESP32
+const int capPin = 32; // Analog pin
 void setup() {
-  Serial.begin(115200);
+Serial.begin(115200);
 }
-
 void loop() {
- int potValue = analogueRead(potPin);
- Serial.print("Potentiometer Value:");
- Serial.println(potValue);
- delay(200);
- 
+int capValue = analogRead(capPin);
+Serial.print("Capacitor Voltage Reading: ");
+Serial.println(capValue);
+delay(200);
 }
