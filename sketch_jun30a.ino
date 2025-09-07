@@ -1,6 +1,7 @@
 // Capacitor Timer Reader on ESP32
 const int capPin = 32; // Analog pin
 void setup() 
+
 {
 
 Serial.begin(115200);
